@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF475325285FAFC800109292 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF475324285FAFC800109292 /* AuthenticateButtonView.swift */; };
 		BF4A486E285F9F50002D32DF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A486D285F9F50002D32DF /* CustomTextField.swift */; };
 		BF4A4871285FA35F002D32DF /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A4870285FA35F002D32DF /* EmailTextField.swift */; };
 		BF4A4873285FA7D6002D32DF /* CustomSecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A4872285FA7D6002D32DF /* CustomSecuredField.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF475324285FAFC800109292 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
 		BF4A486D285F9F50002D32DF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BF4A4870285FA35F002D32DF /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		BF4A4872285FA7D6002D32DF /* CustomSecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecuredField.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				BF4A486F285FA34F002D32DF /* TextFields */,
 				BF6BA969285F9A1500ECA2BD /* BackgroudGradientView.swift */,
 				BF6BA96B285F9C8200ECA2BD /* LogoView.swift */,
+				BF475324285FAFC800109292 /* AuthenticateButtonView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				BF6BA968285F992E00ECA2BD /* SignupView.swift in Sources */,
 				BF4A4875285FA945002D32DF /* PasswordSecureField.swift in Sources */,
 				BF6BA96C285F9C8200ECA2BD /* LogoView.swift in Sources */,
+				BF475325285FAFC800109292 /* AuthenticateButtonView.swift in Sources */,
 				BF6BA964285F988300ECA2BD /* LoginView.swift in Sources */,
 				BF6BA96A285F9A1500ECA2BD /* BackgroudGradientView.swift in Sources */,
 				BF6BA955285F92E900ECA2BD /* ContentView.swift in Sources */,
