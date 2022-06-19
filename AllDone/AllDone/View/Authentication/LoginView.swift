@@ -20,16 +20,19 @@ struct LoginView: View {
             VStack {
                 LogoView()
                     .padding(.bottom, 25)
-                    
+                
                 
                 VStack(spacing: 20) {
                     EmailTextField(text: $email)
-                        .padding(.horizontal, 32)
-                }  // end of vstack
+                    PasswordSecureField(text: $password, placeholder: "Password")
+                    
+                }
+                .padding(.horizontal, 32)
+                // end of vstack
             } // end of vstack
-
+            
         } // end of zstack
-
+        
     }
 }
 

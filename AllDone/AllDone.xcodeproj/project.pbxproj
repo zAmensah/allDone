@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BF4A486E285F9F50002D32DF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A486D285F9F50002D32DF /* CustomTextField.swift */; };
 		BF4A4871285FA35F002D32DF /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A4870285FA35F002D32DF /* EmailTextField.swift */; };
+		BF4A4873285FA7D6002D32DF /* CustomSecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A4872285FA7D6002D32DF /* CustomSecuredField.swift */; };
+		BF4A4875285FA945002D32DF /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A4874285FA945002D32DF /* PasswordSecureField.swift */; };
 		BF6BA953285F92E900ECA2BD /* AllDoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BA952285F92E900ECA2BD /* AllDoneApp.swift */; };
 		BF6BA955285F92E900ECA2BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BA954285F92E900ECA2BD /* ContentView.swift */; };
 		BF6BA957285F92EA00ECA2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6BA956285F92EA00ECA2BD /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		BF4A486D285F9F50002D32DF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BF4A4870285FA35F002D32DF /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		BF4A4872285FA7D6002D32DF /* CustomSecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecuredField.swift; sourceTree = "<group>"; };
+		BF4A4874285FA945002D32DF /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		BF6BA94F285F92E900ECA2BD /* AllDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6BA952285F92E900ECA2BD /* AllDoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDoneApp.swift; sourceTree = "<group>"; };
 		BF6BA954285F92E900ECA2BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +51,10 @@
 		BF4A486F285FA34F002D32DF /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				BF4A486D285F9F50002D32DF /* CustomTextField.swift */,
 				BF4A4870285FA35F002D32DF /* EmailTextField.swift */,
+				BF4A4872285FA7D6002D32DF /* CustomSecuredField.swift */,
+				BF4A4874285FA945002D32DF /* PasswordSecureField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -119,7 +126,6 @@
 				BF4A486F285FA34F002D32DF /* TextFields */,
 				BF6BA969285F9A1500ECA2BD /* BackgroudGradientView.swift */,
 				BF6BA96B285F9C8200ECA2BD /* LogoView.swift */,
-				BF4A486D285F9F50002D32DF /* CustomTextField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -205,7 +211,9 @@
 			files = (
 				BF4A4871285FA35F002D32DF /* EmailTextField.swift in Sources */,
 				BF4A486E285F9F50002D32DF /* CustomTextField.swift in Sources */,
+				BF4A4873285FA7D6002D32DF /* CustomSecuredField.swift in Sources */,
 				BF6BA968285F992E00ECA2BD /* SignupView.swift in Sources */,
+				BF4A4875285FA945002D32DF /* PasswordSecureField.swift in Sources */,
 				BF6BA96C285F9C8200ECA2BD /* LogoView.swift in Sources */,
 				BF6BA964285F988300ECA2BD /* LoginView.swift in Sources */,
 				BF6BA96A285F9A1500ECA2BD /* BackgroudGradientView.swift in Sources */,
